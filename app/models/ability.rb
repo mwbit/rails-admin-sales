@@ -4,8 +4,9 @@ class Ability
   def initialize(user)
     if user
       if user.kind == 'salesman'
+        puts "ola salesman"
         can :access, :rails_admin
-        can :dashboard
+        can :dashboard, :all
         can :manage, Client, user_id: user.id
         can :manage, Sale, user_id: user.id
         can :read, Product, status: :active
