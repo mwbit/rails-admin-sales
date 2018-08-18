@@ -7,8 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 # create some seeds
-User.create name: 'Maria', status: :active, kind: :salesman
-User.create name: 'Carlos', status: :active, kind: :manager
+User.create name: 'Maria', status: :active, kind: :salesman, email: 'salesman@teste.com', password: 123456
+User.create name: 'Carlos', status: :active, kind: :manager, email: 'manager@teste.com', password: 123456
 
 Product.create name: 'Guitarra Fender', description:'Guitarra nova', status: :active
 Product.create name: 'Bateria Mapex', description:'Bateria nova', status: :active
