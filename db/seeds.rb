@@ -8,6 +8,7 @@
 
 # create some seeds
 User.create name: 'Maria', status: :active, kind: :salesman, email: 'salesman@teste.com', password: 123456
+User.create name: 'Joao', status: :active, kind: :salesman, email: 'salesman2@teste.com', password: 123456
 User.create name: 'Carlos', status: :active, kind: :manager, email: 'manager@teste.com', password: 123456
 
 Product.create name: 'Guitarra Fender', description:'Guitarra nova', status: :active
