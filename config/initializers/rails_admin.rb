@@ -102,7 +102,9 @@ RailsAdmin.config do |config|
   end
    
   config.model ProductQuantity do
+    field :sale_id, :hidden
     visible false
+
   end
    
   config.model Address do
@@ -113,7 +115,7 @@ RailsAdmin.config do |config|
   config.model ProductQuantity do
     edit do
       field :product
-      field :quantity
+      field :quantity, :hidden
    
       field :user_id, :hidden do
         default_value do
