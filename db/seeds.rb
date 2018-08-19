@@ -14,4 +14,7 @@ User.create name: 'Carlos', status: :active, kind: :manager, email: 'manager@tes
 Product.create name: 'Guitarra Fender', description:'Guitarra nova', status: :active
 Product.create name: 'Bateria Mapex', description:'Bateria nova', status: :active
 
-Discount.create name: 'Desconto natal', description: 'Desconto de natal', value: '5', kind: :porcent, status: :active
+Discount.create name: 'Desconto natal', description: 'Desconto de natal', 
+    value: '5', kind: :porcent, status: :active
+
+    
