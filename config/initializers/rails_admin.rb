@@ -125,6 +125,8 @@ RailsAdmin.config do |config|
     end
   end
 
+  config.main_app_name = ["Representantes", ""]
+  
   config.actions do
     dashboard                     # mandatory
     index                         # mandatory
@@ -140,4 +142,6 @@ RailsAdmin.config do |config|
     # history_index
     # history_show
   end
+
+  
 end
